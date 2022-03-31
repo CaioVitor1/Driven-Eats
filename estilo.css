@@ -1,0 +1,84 @@
+body {
+  
+}
+
+* {
+    Box-sizing: border-box; 
+   }
+
+.container {
+    background-color: #E5E5E5;
+    width: 414px;
+    margin: 0px auto;
+    height: 1050px;
+    border: solid;
+}
+
+.cabecalho {
+    margin: 0px auto;
+    width: 414px;
+    height: 92px;
+    background-color: #CF2B2B ;
+    position: fixed;
+}
+
+h1 {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+}
+ .cabecalho > h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+ }
+
+ .pratos {
+    margin-top: 123px;
+    border:solid;
+    margin-left: 19px;
+}
+
+.titulo {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    color: #333333;
+    margin-bottom: 17px;
+
+    
+    
+ }
+
+ .itens-prato {
+    display: flex;
+ }
+
+ .item1 {
+     width: 172px;
+    height: 216px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    margin-right: 16px;
+ }
+
+ .item2 {
+    width: 172px;
+    height: 216px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    
+}
+
+
+ 
