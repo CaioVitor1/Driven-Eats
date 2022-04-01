@@ -10,7 +10,7 @@ body {
     background-color: #E5E5E5;
     width: 414px;
     margin: 0px auto;
-    height: 1000px;
+    height: 1060px;
     position: relative;
 }
 
@@ -21,15 +21,14 @@ body {
     background-color: #CF2B2B ;
     position: fixed;
     top:0px;
-    border:solid;
+    
     z-index: 1; 
 }
 .pedidos {
     position: absolute;
     top: 0px;
     width: 414px;
-    border: solid;
-    border-color: blue;
+    
  }
 
 h1 {
@@ -54,7 +53,7 @@ h1 {
 
  .pratos {
     margin-top: 113px;
-    border:solid;
+    
     margin-left: 19px;
 }
 
@@ -67,8 +66,6 @@ h1 {
     letter-spacing: 0.018em;
     color: #333333;
     margin-bottom: 17px;
-
-    
     
  }
 
@@ -77,12 +74,25 @@ h1 {
     overflow-x: scroll;
     
  }
+.icone {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    color: #32B72F;
+}
+.bordas {
+    border: solid;
+    border-color:#32B72F;
+}
 
  .item1 {
     width: 172px;
     background-color: #FFFFFF;
     border-radius: 9px;
     margin-right: 16px;
+    position: relative;
  }
 
  .item-titulo {
@@ -110,12 +120,12 @@ h1 {
     font-size: 16px;
     line-height: 19px;
     color: #000000;
-    margin: 5px 0px 13px 14px;
+    margin: 8px 0px 13px 14px;
  }
 
  .item2 {
     width: 172px;
-    
+    position: relative;
     background-color: #FFFFFF;
     border-radius: 9px;
     margin-right: 16px;
@@ -127,20 +137,18 @@ h1 {
 }
 .item3 {
     width: 172px;
-  
+    position: relative;
     background-color: #FFFFFF;
     border-radius: 9px;
     
 }
 .bebidas {
     margin-top: 27px;
-    border:solid;
     margin-left: 19px;
 }
 .sobremesa {
     margin-top: 27px;
     margin-left: 19px; 
-    border: solid;
 }
 .rodape {
     height: 92px;
@@ -171,6 +179,33 @@ h1 {
     margin:8px auto;
     align-items: center;
    
+}
+.desligar1 {
+    display: none;
+}
+.desligar2 {
+    display: none;
+}
+.desligar3 {
+    display: none;
+}
+.desligar4 {
+    display: none;
+}
+.desligar5 {
+    display: none;
+}
+.desligar6 {
+    display: none;
+}
+.desligar7 {
+    display: none;
+}
+.desligar8 {
+    display: none;
+}
+.desligar9 {
+    display: none;
 }
 
 
