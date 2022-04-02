@@ -74,7 +74,7 @@ h1 {
     overflow-x: scroll;
     
  }
-.icone {
+.icone1 {
     width: 20px;
     height: 20px;
     position: absolute;
@@ -82,18 +82,103 @@ h1 {
     bottom: 12px;
     color: #32B72F;
 }
-.bordas {
-    border: solid;
-    border-color:#32B72F;
+.icone2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    color: #32B72F;
+}
+.icone3 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    color: #32B72F;
+}
+.icone4 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    color: #32B72F;
+}
+.icone5 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    color: #32B72F;
+}
+.icone6 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    color: #32B72F;
+}
+.icone7 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    color: #32B72F;
+}
+.icone8 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    color: #32B72F;
+}
+.icone9 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    color: #32B72F;
 }
 
  .item1 {
     width: 172px;
     background-color: #FFFFFF;
     border-radius: 9px;
+    border-color: #E5E5E5; ;
     margin-right: 16px;
     position: relative;
+    
  }
+ .item4 {
+    width: 172px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border-color: #E5E5E5; ;
+    margin-right: 16px;
+    position: relative;
+    
+ }
+ .item7 {
+    width: 172px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border-color: #E5E5E5; ;
+    margin-right: 16px;
+    position: relative;
+    
+ }
+
+ .bordas {
+    border: solid;
+    border-color:#32B72F;
+}
 
  .item-titulo {
     font-family: 'Roboto';
@@ -129,6 +214,23 @@ h1 {
     background-color: #FFFFFF;
     border-radius: 9px;
     margin-right: 16px;
+    
+}
+.item5 {
+    width: 172px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    margin-right: 16px;
+    
+}
+.item8 {
+    width: 172px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    margin-right: 16px;
+    
 }
 .frango {
     width: 144px;
@@ -140,6 +242,23 @@ h1 {
     position: relative;
     background-color: #FFFFFF;
     border-radius: 9px;
+    
+    
+}
+.item6 {
+    width: 172px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    
+    
+}
+.item9 {
+    width: 172px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    
     
 }
 .bebidas {
