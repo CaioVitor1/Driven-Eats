@@ -266,23 +266,8 @@ function escolherSobremesa3() {
         cor.classList.add("verde");
     }
  }
-
-
-   /*
-  function fazerPedido() {
-    let mensagem = "olá, gostaria de fazer o pedido: " + "<br>" + 
-    "- Prato: " + prato + "\n" + "<br>" +
-    "- Bebida: " + bebida + "\n" +
-    "- Sobremesa: " + sobremesa + "\n" +
-    " Total: " 
-
-    mensagemEncoded = encodeURIComponent(mensagem);
-
-    window.open("https://wa.me/5586994846600?text=" + mensagemEncoded)
-}
- */
  
-
+/*
 function fazerPedido() {
     
     if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
@@ -300,5 +285,58 @@ function fazerPedido() {
     window.open(`https://wa.me/5586994846600?text=${mensagemEncoded}`, "_blank");
     }
   }
+*/
+
+function fazerPedido() {
+    
+    if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
+        // salvando mensagem //
+        nome = prompt("Qual seu nome?");
+        endereco = prompt("Qual seu endereço?");
+        mensagem = `Olá, gostaria de fazer o pedido:
+        - Prato: ${prato}
+        - Bebida: ${bebida}
+        - Sobremesa: ${sobremesa}
+        Total: R$ ${(precoPrato + precoBebida + precoSobremesa).toFixed(2)}\n
+        nome: ${nome}
+        endereço: ${endereco}`;
+   
+   
+        // abrindo a div de confirmação //
+    let abrindoConfirmacao = document.querySelector(".revisando-pedido")
+    abrindoConfirmacao.classList.add("modificando-display");
+
+    // modificando os nomes escolhidos //
+    let prato1 = document.querySelector(".prato1")
+    let preco1 = document.querySelector(".preco1")
+    prato1.innerHTML = prato
+    preco1.innerHTML = precoPrato.toFixed(2)
+
+    let bebida1 = document.querySelector(".bebida1")
+    let preco2 = document.querySelector(".preco2")
+    bebida1.innerHTML = bebida
+    preco2.innerHTML = precoBebida.toFixed(2)
+
+    let sobremesa1 = document.querySelector(".sobremesa1")
+    let preco3 = document.querySelector(".preco3")
+    sobremesa1.innerHTML = sobremesa
+    preco3.innerHTML = precoSobremesa.toFixed(2)
+
+    let precoTotal = document.querySelector(".preco-total")
+    precoTotal.innerHTML = (precoPrato + precoBebida + precoSobremesa).toFixed(2)
+  
+    }
+  }
+
+  function confirmando() {
+    mensagemEncoded = encodeURIComponent(mensagem);
+    window.open(`https://wa.me/5586994846600?text=${mensagemEncoded}`, "_blank");
+  }
+
+  function recusando () {
+      let inicio = document.querySelector(".revisando-pedido")
+      inicio.classList.remove("modificando-display")
+  }
+
    
 
