@@ -275,6 +275,9 @@ h1 {
     position: fixed;
     bottom: 0px;
     width: 414px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .finalizar-pedido {
     width: 364px;
@@ -284,6 +287,7 @@ h1 {
     background: #CBCBCB;
     border-radius: 50px;
     margin: 15px auto;
+    
 }
 .finalizar-pedido > h2 {
     font-family: 'Roboto';
@@ -326,7 +330,19 @@ h1 {
 .desligar9 {
     display: none;
 }
-
+.verde {
+    background-color: #32B72F;
+}
+.texto-cor {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
 
 
 
