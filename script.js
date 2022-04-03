@@ -5,6 +5,10 @@ let precoPrato;
 let precoBebida;
 let precoSobremesa;
 let preco = precoPrato + precoBebida + precoSobremesa
+let mensagemEncoded;
+let mensagem;
+let nome;
+let endereco;
 
 function escolherPrato1() {
     let frango1 = document.querySelector(".item1");
@@ -21,10 +25,10 @@ function escolherPrato1() {
     frango2.classList.remove("bordas");
     frango3.classList.remove("bordas");  
     
-    prato = "frango1"
+    prato = "Frango Yin Yang"
     precoPrato = 14.90
 
-    if ( (prato === "frango1" || prato === "frango2" || prato === "frango3") && (bebida === "bebida1" || bebida === "bebida2" || bebida === "bebida3") && (sobremesa === "sobremesa1" || sobremesa === "sobremesa2" || sobremesa === "sobremesa3") ) {
+    if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
         let pedido =  document.querySelector(".texto-pedido");
         let cor = document.querySelector(".finalizar-pedido")
 
@@ -49,10 +53,10 @@ function escolherPrato2() {
     frango2.classList.add("bordas");
     frango3.classList.remove("bordas"); 
     
-    prato = "frango2"
+    prato = "Hamburguer"
     precoPrato = 16.90
 
-    if ( (prato == "frango1" || prato == "frango2" || prato == "frango3") && (bebida == "bebida1" || bebida == "bebida2" || bebida == "bebida3") && (sobremesa == "sobremesa1" || sobremesa == "sobremesa2" || sobremesa == "sobremesa3") ) {
+    if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
         let pedido =  document.querySelector(".texto-pedido");
         let cor = document.querySelector(".finalizar-pedido")
 
@@ -77,10 +81,10 @@ function escolherPrato3() {
     frango2.classList.remove("bordas");
     frango3.classList.add("bordas");   
 
-    prato = "frango3"
+    prato = "Frango empanado"
     precoPrato = 19.90
 
-    if ( (prato == "frango1" || prato == "frango2" || prato == "frango3") && (bebida == "bebida1" || bebida == "bebida2" || bebida == "bebida3") && (sobremesa == "sobremesa1" || sobremesa == "sobremesa2" || sobremesa == "sobremesa3") ) {
+    if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
         let pedido =  document.querySelector(".texto-pedido");
         let cor = document.querySelector(".finalizar-pedido")
 
@@ -107,10 +111,10 @@ function escolherBebida1() {
     bebida2.classList.remove("bordas");
     bebida3.classList.remove("bordas");   
 
-    bebida = "bebida1"
+    bebida = "Coquinha Gelada"
     precoBebida = 4.90
 
-    if ( (prato == "frango1" || prato == "frango2" || prato == "frango3") && (bebida == "bebida1" || bebida == "bebida2" || bebida == "bebida3") && (sobremesa == "sobremesa1" || sobremesa == "sobremesa2" || sobremesa == "sobremesa3") ) {
+    if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
         let pedido =  document.querySelector(".texto-pedido");
         let cor = document.querySelector(".finalizar-pedido")
 
@@ -135,10 +139,10 @@ function escolherBebida2() {
     bebida2.classList.add("bordas");
     bebida3.classList.remove("bordas");   
 
-    bebida = "bebida2"
+    bebida = "Água gelada"
     precoBebida = 5.90
 
-    if ( (prato == "frango1" || prato == "frango2" || prato == "frango3") && (bebida == "bebida1" || bebida == "bebida2" || bebida == "bebida3") && (sobremesa == "sobremesa1" || sobremesa == "sobremesa2" || sobremesa == "sobremesa3") ) {
+    if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
         let pedido =  document.querySelector(".texto-pedido");
         let cor = document.querySelector(".finalizar-pedido")
 
@@ -163,10 +167,10 @@ function escolherBebida3() {
     bebida2.classList.remove("bordas");
     bebida3.classList.add("bordas");   
 
-    bebida = "bebida3"
+    bebida = "Cerveja gelada"
     precoBebida = 7.90
 
-    if ( (prato == "frango1" || prato == "frango2" || prato == "frango3") && (bebida == "bebida1" || bebida == "bebida2" || bebida == "bebida3") && (sobremesa == "sobremesa1" || sobremesa == "sobremesa2" || sobremesa == "sobremesa3") ) {
+    if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
         let pedido =  document.querySelector(".texto-pedido");
         let cor = document.querySelector(".finalizar-pedido")
 
@@ -194,10 +198,10 @@ function escolherBebida3() {
     sobremesa2.classList.remove("bordas");
     sobremesa3.classList.remove("bordas");   
 
-    sobremesa = "sobremesa1"
+    sobremesa = "Pudim"
     precoSobremesa = 7.90
 
-    if ( (prato == "frango1" || prato == "frango2" || prato == "frango3") && (bebida == "bebida1" || bebida == "bebida2" || bebida == "bebida3") && (sobremesa == "sobremesa1" || sobremesa == "sobremesa2" || sobremesa == "sobremesa3") ) {
+    if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
         let pedido =  document.querySelector(".texto-pedido");
         let cor = document.querySelector(".finalizar-pedido")
 
@@ -222,10 +226,10 @@ function escolherSobremesa2() {
     sobremesa2.classList.add("bordas");
     sobremesa3.classList.remove("bordas");   
 
-    sobremesa = "sobremesa2"
+    sobremesa = "Mousse"
     precoSobremesa = 8.90
 
-    if ( (prato == "frango1" || prato == "frango2" || prato == "frango3") && (bebida == "bebida1" || bebida == "bebida2" || bebida == "bebida3") && (sobremesa == "sobremesa1" || sobremesa == "sobremesa2" || sobremesa == "sobremesa3") ) {
+    if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
         let pedido =  document.querySelector(".texto-pedido");
         let cor = document.querySelector(".finalizar-pedido")
 
@@ -250,10 +254,10 @@ function escolherSobremesa3() {
     sobremesa2.classList.remove("bordas");
     sobremesa3.classList.add("bordas");  
 
-    sobremesa = "sobremesa3"
+    sobremesa = "Milkshake"
     precoSobremesa = 10.90
     
-    if ( (prato == "frango1" || prato == "frango2" || prato == "frango3") && (bebida == "bebida1" || bebida == "bebida2" || bebida == "bebida3") && (sobremesa == "sobremesa1" || sobremesa == "sobremesa2" || sobremesa == "sobremesa3") ) {
+    if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
         let pedido =  document.querySelector(".texto-pedido");
         let cor = document.querySelector(".finalizar-pedido")
 
@@ -264,22 +268,37 @@ function escolherSobremesa3() {
  }
 
 
-  /*
+   /*
   function fazerPedido() {
-    let mensagem = "olá, gostaria de fazer o pedido: - Prato: " + prato + "- Bebida: " + bebida + "- Sobremesa: " + sobremesa + " Total: R$ 30.00"
-    mensagem = window.encodeURIComponent(mensagem);
+    let mensagem = "olá, gostaria de fazer o pedido: " + "<br>" + 
+    "- Prato: " + prato + "\n" + "<br>" +
+    "- Bebida: " + bebida + "\n" +
+    "- Sobremesa: " + sobremesa + "\n" +
+    " Total: " 
 
-    window.open("https://wa.me/5586994846600?text=" + mensagem)
+    mensagemEncoded = encodeURIComponent(mensagem);
+
+    window.open("https://wa.me/5586994846600?text=" + mensagemEncoded)
 }
-  */
+ */
+ 
 
 function fazerPedido() {
-    let mensagem = `Olá, gostaria de fazer o pedido:
-    - Prato: ${prato}
-    - Bebida: ${bebida}
-    - Sobremesa: ${sobremesa}
-    - Total: ${(precoPrato + precoBebida + precoSobremesa).toFixed(2)} ` 
-    window.open("https://wa.me/5586994846600?text=" + mensagem)
-}
-
+    
+    if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
+    nome = prompt("Qual seu nome?");
+    endereco = prompt("Qual seu endereço?");
+    mensagem = `Olá, gostaria de fazer o pedido:
+  - Prato: ${prato}
+  - Bebida: ${bebida}
+  - Sobremesa: ${sobremesa}
+  Total: R$ ${(precoPrato + precoBebida + precoSobremesa).toFixed(2)}\n
+  nome: ${nome}
+  endereço: ${endereco}`;
+  
+    mensagemEncoded = encodeURIComponent(mensagem);
+    window.open(`https://wa.me/5586994846600?text=${mensagemEncoded}`, "_blank");
+    }
+  }
+   
 

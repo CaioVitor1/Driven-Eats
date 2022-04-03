@@ -21,7 +21,6 @@ body {
     background-color: #CF2B2B ;
     position: fixed;
     top:0px;
-    
     z-index: 1; 
 }
 .pedidos {
@@ -151,9 +150,12 @@ h1 {
     width: 172px;
     background-color: #FFFFFF;
     border-radius: 9px;
-    border-color: #E5E5E5; ;
     margin-right: 16px;
     position: relative;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border: solid;
+    border-color: #E5E5E5;
+
     
  }
  .item4 {
@@ -163,7 +165,10 @@ h1 {
     border-color: #E5E5E5; ;
     margin-right: 16px;
     position: relative;
-    
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border: solid;
+    border-color: #E5E5E5;
+
  }
  .item7 {
     width: 172px;
@@ -172,13 +177,11 @@ h1 {
     border-color: #E5E5E5; ;
     margin-right: 16px;
     position: relative;
-    
- }
-
- .bordas {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border: solid;
-    border-color:#32B72F;
-}
+    border-color: #E5E5E5;
+
+ }
 
  .item-titulo {
     font-family: 'Roboto';
@@ -214,6 +217,9 @@ h1 {
     background-color: #FFFFFF;
     border-radius: 9px;
     margin-right: 16px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border: solid;
+    border-color: #E5E5E5;
     
 }
 .item5 {
@@ -222,7 +228,10 @@ h1 {
     background-color: #FFFFFF;
     border-radius: 9px;
     margin-right: 16px;
-    
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border: solid;
+    border-color: #E5E5E5;
+
 }
 .item8 {
     width: 172px;
@@ -230,19 +239,25 @@ h1 {
     background-color: #FFFFFF;
     border-radius: 9px;
     margin-right: 16px;
-    
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border: solid;
+    border-color: #E5E5E5;
+
 }
 .frango {
     width: 144px;
     height: 87px;
     margin: 18px 14px 8px 14px;
+    border-radius: 4px;
 }
 .item3 {
     width: 172px;
     position: relative;
     background-color: #FFFFFF;
     border-radius: 9px;
-    
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border: solid;
+    border-color: #E5E5E5;
     
 }
 .item6 {
@@ -250,7 +265,10 @@ h1 {
     position: relative;
     background-color: #FFFFFF;
     border-radius: 9px;
-    
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border: solid;
+    border-color: #E5E5E5;
+
     
 }
 .item9 {
@@ -258,7 +276,10 @@ h1 {
     position: relative;
     background-color: #FFFFFF;
     border-radius: 9px;
-    
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border: solid;
+    border-color: #E5E5E5;
+
     
 }
 .bebidas {
@@ -343,7 +364,123 @@ h1 {
     letter-spacing: 0.018em;
     color: #FFFFFF;
 }
+.bordas {
+    border: solid;
+    border-color:#32B72F;
+}
+
+.revisando-pedido{
+    width: 414px;
+    height: 1060px;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.confirmacao {
+    width: 377px;
+    height: 353px;
+    background: #50D074;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+.confirmacao > h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 21px;
+    color: #FFFFFF;
+}
+.escolha1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+.escolha1 > h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
+.escolha2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+.escolha2 > h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
 
 
-
+.escolhas{
+    margin-top: 28px;
+}
+.botao-confimacao {
+    width: 329px;
+    height: 52px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    
+   
+    
+}
+.texto-botao-confirmacao{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #50D074;
+}
+.botao-cancelar {
+    background: #50D074;
+    border:none;
+}
+.texto-botao-cancelar {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.botoes {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.margem1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.margem2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  
