@@ -71,6 +71,7 @@ h1 {
  .itens-prato {
     display: flex;
     overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
     
  }
 .icone1 {
@@ -430,16 +431,15 @@ h1 {
 .escolhas{
     margin-top: 28px;
 }
-.botao-confimacao {
+.botao-confirmacao {
     width: 329px;
     height: 52px;
     background: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid;
+    border-radius: 50px;
     
-   
     
 }
 .texto-botao-confirmacao{

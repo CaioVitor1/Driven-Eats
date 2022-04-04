@@ -1,0 +1,1 @@
+Driven Eats é um site responsável responsável por fornecer delivery de comidas. Nele o usuário escolhe seu lanche e seu pedido é enviado automaticamente para o WhatsApp do restaurante. 

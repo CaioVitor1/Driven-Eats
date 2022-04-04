@@ -266,26 +266,7 @@ function escolherSobremesa3() {
         cor.classList.add("verde");
     }
  }
- 
-/*
-function fazerPedido() {
-    
-    if ( (prato === "Frango Yin Yang" || prato === "Hamburguer" || prato === "Frango empanado") && (bebida === "Coquinha Gelada" || bebida === "Água gelada" || bebida === "Cerveja gelada") && (sobremesa === "Pudim" || sobremesa === "Mousse" || sobremesa === "Milkshake") ) {
-    nome = prompt("Qual seu nome?");
-    endereco = prompt("Qual seu endereço?");
-    mensagem = `Olá, gostaria de fazer o pedido:
-  - Prato: ${prato}
-  - Bebida: ${bebida}
-  - Sobremesa: ${sobremesa}
-  Total: R$ ${(precoPrato + precoBebida + precoSobremesa).toFixed(2)}\n
-  nome: ${nome}
-  endereço: ${endereco}`;
-  
-    mensagemEncoded = encodeURIComponent(mensagem);
-    window.open(`https://wa.me/5586994846600?text=${mensagemEncoded}`, "_blank");
-    }
-  }
-*/
+
 
 function fazerPedido() {
     
